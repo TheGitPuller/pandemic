@@ -1,8 +1,8 @@
 # Pandemic
 
-## Generates animation of COVID-19 uptake against cases through time for specific countries and case thresholds.
+## A more optimistic view towards COVID-19
 
-A more optimistic view towards COVID-19
+### Generates animation of COVID-19 uptake against cases through time for specific countries and case thresholds.
 
 Exponential growth of a pandemic with time is hard to interpret as minor changes in gradients are smoothed out by the overall trend, making them hard to extrapolate and even harder to gain optimism from.
 
