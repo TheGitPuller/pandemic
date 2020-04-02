@@ -23,9 +23,9 @@ from trajectory import trajectories
 countriesList = ["US", "Netherlands", "United-Kingdom", "Germany", "Spain", "Italy", "China"]
 
 ''' Instantiation examples '''
-#A = trajectories()
-#A = trajectories(confirmedCaseThreshold=15e3, smoothing=True, smoothingWindow=3, smoothingDegree=1, pathname="./YOUR_PATH/")
-#A = trajectories(confirmedCaseThreshold=10e3)
+#trajectory_info = trajectories()
+#trajectory_info = trajectories(confirmedCaseThreshold=15e3, smoothing=True, smoothingWindow=3, smoothingDegree=1, pathname="./YOUR_PATH/")
+#trajectory_info = trajectories(confirmedCaseThreshold=10e3)
 trajectory_info = trajectories(countriesList = countriesList, smoothingDegree=2)
 ''' Generate animation '''
 trajectory_info(plot=True) 
